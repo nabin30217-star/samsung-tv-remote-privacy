@@ -1,6 +1,6 @@
 # Privacy Policy — Samsung TV Remote – Wi-Fi & IR
 
-**Effective date:** [YYYY-MM-DD]
+**Effective date:** 2026-01-01
 
 This Privacy Policy explains how **Samsung TV Remote – Wi-Fi & IR** (“App”) handles information.
 
