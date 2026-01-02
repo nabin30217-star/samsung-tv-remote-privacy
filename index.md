@@ -1,73 +1,159 @@
-# Privacy Policy — Samsung TV Remote – Wi-Fi & IR
+Privacy Policy for Samsung TV Remote – Wi-Fi & IR
 
-**Effective date:** 2026-01-01
+Effective Date: January 2, 2026
 
-This Privacy Policy explains how **Samsung TV Remote – Wi-Fi & IR** (“App”) handles information.
+1. Introduction
 
-## 1) Summary
-- The App’s remote-control features work with your TV over your **local network (LAN)** and/or your phone’s **IR blaster**.
-- The App **does not require you to create an account**.
-- The App **does not sell personal information**.
-- The App shows ads using **Google AdMob**, which may collect data as described below.
+This Privacy Policy explains how Samsung TV Remote – Wi-Fi & IR (“we”, “our”, or “the App”) handles information when you use the application.
 
-## 2) Information the App processes
-### A) Local TV connection data (LAN)
-To discover and control your TV, the App may process:
-- Your TV’s **local IP address**
-- A **connection token** provided by the TV (when applicable)
+We are committed to protecting your privacy.
+The App is designed to control Samsung Smart TVs using Wi-Fi (local network) and Infrared (IR) and operates on a privacy-first principle.
 
-**This data is stored locally on your device** to improve reconnecting, and is used only to control your TV over your local network.
+2. Information Collection & Permissions
 
-### B) Voice commands (optional)
-If you use Voice Control, the App sends your spoken command through the Android speech recognition flow (triggered by the system/Google voice service).  
-The App uses the recognized text to trigger remote commands (e.g., volume up/down).  
-The App **does not store your voice recordings**.
+We do not require user accounts and do not collect personal information such as name, email address, phone number, or location on our own servers.
 
-### C) Ads (Google AdMob)
-The App uses **Google AdMob** to show banner, interstitial, rewarded and other ads.  
-AdMob may collect information such as:
-- device identifiers (e.g., Advertising ID)
-- app usage and diagnostic data
-- approximate location (derived from IP)
-This collection is handled by Google under its own policies.
+The App only uses the following permissions to function correctly:
 
-Google’s Privacy Policy: https://policies.google.com/privacy  
-Google AdMob: https://support.google.com/admob/
+2.1 Local Network Access (Nearby Devices)
 
-## 3) What the App does NOT collect
-The developer does not directly collect:
-- your name, email, phone number
-- contacts, photos, or files
-- precise GPS location
+Permissions Used
 
-## 4) How information is used
-Information is used to:
-- discover and connect to your TV on the local network
-- send remote-control commands
-- provide optional voice control
-- display ads and prevent fraud/abuse (via AdMob)
+android.permission.NEARBY_WIFI_DEVICES
 
-## 5) Sharing
-The App does not share your local TV connection data with third parties.  
-Third-party ad services (Google AdMob) may process data as described in Section 2(C).
+android.permission.ACCESS_WIFI_STATE
 
-## 6) Data retention
-- TV connection details (like IP/token) are kept locally on your device until you clear the app’s storage or uninstall the app.
-- The developer does not maintain a server storing your personal data.
+android.permission.ACCESS_NETWORK_STATE
 
-## 7) Permissions
-The App may request permissions such as:
-- **Network/Wi-Fi access** (discover/connect/control TV on LAN)
-- **Microphone / speech** (only if you use voice commands)
-- **Vibration** (haptic feedback)
-- **IR transmitter** (if your device supports IR blaster)
+android.permission.INTERNET
 
-## 8) Children’s privacy
-The App is not directed to children under 13. If you believe a child has provided personal data through an ad service, please contact Google (AdMob) via their support resources.
+Purpose
 
-## 9) Changes to this policy
-This policy may be updated. The latest version will be available at this page/URL.
+To discover and connect to Samsung TVs on the same local Wi-Fi network.
 
-## 10) Contact
-For support or privacy questions, contact the developer via the email shown on the Google Play listing.
+Important Privacy Notes
+
+This permission is not used for location tracking.
+
+Network scanning is limited to private local networks only (LAN).
+
+TV IP addresses and device information are processed locally on your device.
+
+No network data is uploaded to our servers.
+
+2.2 Infrared (IR) Blaster
+
+Permission Used
+
+android.permission.TRANSMIT_IR
+
+Purpose
+
+To send infrared remote control signals using your phone’s built-in IR hardware (if available).
+
+Data Usage
+
+No data is collected or transmitted.
+
+IR communication occurs entirely between your phone and the TV.
+
+2.3 Voice Commands
+
+Permissions Used
+
+None (uses Android system intent)
+
+Purpose
+
+To allow voice-based control such as “Volume Up” or “Power Off”.
+
+Privacy Handling
+
+The App uses Android’s system speech recognizer (Google app).
+
+Audio is processed by the system.
+
+The App only receives converted text commands.
+
+We do not record, store, or transmit voice audio.
+
+2.4 Advertising (Google AdMob)
+
+Permissions Used
+
+android.permission.INTERNET
+
+com.google.android.gms.permission.AD_ID
+
+Purpose
+
+To display advertisements that support the free version of the App.
+
+Data Handling
+
+Ads are provided by Google AdMob, a third-party service.
+
+AdMob may use device identifiers (Advertising ID) and cookies to show:
+
+Personalized ads, or
+
+Non-personalized ads (depending on user settings).
+
+User Control
+
+You can manage or reset your Advertising ID from:
+
+Android Settings → Google → Ads
+
+Third-Party Policy
+
+Google AdMob Privacy Policy:
+https://policies.google.com/technologies/ads
+
+3. Data Retention
+
+We do not store personal data on external servers.
+
+App settings (such as selected TV IP address) are stored locally on your device only.
+
+All stored data is removed when you:
+
+Uninstall the App, or
+
+Clear App data from system settings.
+
+4. Children’s Privacy
+
+This App is not intended for children under the age of 13.
+We do not knowingly collect personal information from children.
+
+5. Security Measures
+
+The App restricts network communication to private local networks only.
+
+Public and internet-based IP connections are actively blocked.
+
+Cleartext traffic is used only for local TV communication where required by older Samsung TV models.
+
+No user data is shared with external servers except through Google AdMob.
+
+6. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+Any changes will be reflected on this page and will take effect immediately after posting.
+
+7. Contact Information
+
+If you have any questions or concerns about this Privacy Policy, you can contact us at:
+
+Developer: Nabin Pariyar
+GitHub Profile: https://github.com/nabin30217-star
+
+Privacy Policy URL:
+https://nabin30217-star.github.io/samsung-tv-remote-privacy/
+
+Trademark Disclaimer
+
+Samsung is a trademark of Samsung Electronics Co., Ltd.
+This App is not affiliated with or endorsed by Samsung.
 
