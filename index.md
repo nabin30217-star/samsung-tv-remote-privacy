@@ -55,5 +55,5 @@ We may update this Privacy Policy from time to time. You are advised to review t
 ## 6. Contact Us
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
 
-**Email**: [INSERT YOUR SUPPORT EMAIL HERE]
+**Email**: nabin30217@gmail.com
 **Developer Website**: https://nabin30217-star.github.io/samsung-tv-remote-privacy/
